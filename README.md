@@ -31,5 +31,5 @@ sudo pip install pandoc-fignos pandoc-tablenos pandoc-eqnos
 
 ## Attribution
 
-* `nature.cls` obtained from https://github.com/citation-style-language/styles
+* `nature.csl` obtained from https://github.com/citation-style-language/styles
 * figure taken from https://xkcd.com/688/
