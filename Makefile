@@ -1,4 +1,4 @@
-article.pdf: article.md references.bib
+paper.pdf: paper.md references.bib
 	pandoc \
 		-s \
 		--bibliography references.bib \
@@ -6,8 +6,8 @@ article.pdf: article.md references.bib
 		--filter pandoc-tablenos \
 		--filter pandoc-eqnos \
 		--filter pandoc-citeproc \
-		article.md -o article.pdf
+		paper.md -o paper.pdf
 
 .PHONY: clean
 clean:
-	${RM} article.pdf
+	${RM} paper.pdf

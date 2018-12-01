@@ -1,6 +1,6 @@
-# Writing a scientific article in Markdown
+# Writing a scientific paper in Markdown
 
-## Compiling the final article as PDF
+## Compiling the final paper as PDF
 
 Simply run
 
@@ -8,7 +8,7 @@ Simply run
 make
 ```
 
-This will produce `article.pdf`
+This will produce `paper.pdf`
 
 ## Prerequisites
 
