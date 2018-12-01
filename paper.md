@@ -1,5 +1,5 @@
 ---
-title: The Article Title
+title: The Paper Title
 author:
  - John Doe (john@doe.com)¹
  - Jane Doe (jane@doe.com)¹²*
