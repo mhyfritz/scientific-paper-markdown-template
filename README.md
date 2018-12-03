@@ -1,14 +1,18 @@
 # Writing a scientific paper in Markdown
 
-## Compiling the final paper as PDF
+## Compiling the paper
 
-Simply run
+By default, a PDF version will be produced. Simply run
 
 ```bash
 make
 ```
 
-This will produce `paper.pdf`
+This will produce `paper.pdf`. To build a DOCX file, run
+
+```bash
+make docx
+```
 
 ## Prerequisites
 

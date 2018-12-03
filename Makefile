@@ -1,3 +1,8 @@
+all: pdf
+
+pdf: paper.pdf
+docx: paper.docx
+
 paper.pdf: paper.md references.bib
 	pandoc \
 		-s \
